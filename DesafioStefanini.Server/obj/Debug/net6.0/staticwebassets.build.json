@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "beBRiMsGzUiPw7p+KKv+RFTn0QH/nzgwJpkhiGs+mno=",
+  "Source": "DesafioStefanini.Server",
+  "BasePath": "_content/DesafioStefanini.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\desafiostefanini.client\\desafiostefanini.client.esproj",
+      "Version": 2,
+      "Source": "desafiostefanini.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

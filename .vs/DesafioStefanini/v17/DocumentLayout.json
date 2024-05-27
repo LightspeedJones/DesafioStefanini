@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\service\\stefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\service\\stefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\context\\stefdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\context\\stefdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\controllers\\stefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\controllers\\stefcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\model\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\model\\itenspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\model\\itenspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\interface\\istefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\interface\\istefservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|c:\\users\\felip\\source\\repos\\desafiostefanini\\desafiostefanini.server\\desafiostefanini.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9D08FE25-F055-4EC8-8BB5-8CCFA0B6B500}|DesafioStefanini.Server\\DesafioStefanini.Server.csproj|solutionrelative:desafiostefanini.server\\desafiostefanini.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Program.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Program.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:35:40.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StefController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Controllers\\StefController.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Controllers\\StefController.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Controllers\\StefController.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Controllers\\StefController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:34:08.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStefService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Interface\\IStefService.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Interface\\IStefService.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Interface\\IStefService.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Interface\\IStefService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:20:38.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StefService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Service\\StefService.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Service\\StefService.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Service\\StefService.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Service\\StefService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:20:00.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DesafioStefanini.Server",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\DesafioStefanini.Server.csproj",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\DesafioStefanini.Server.csproj",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\DesafioStefanini.Server.csproj",
+              "RelativeToolTip": "DesafioStefanini.Server\\DesafioStefanini.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-26T22:26:06.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItensPedido.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Model\\ItensPedido.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Model\\ItensPedido.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Model\\ItensPedido.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Model\\ItensPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:35:47.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Model\\Pedido.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Model\\Pedido.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Model\\Pedido.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Model\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:27:24.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Model\\Produto.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Model\\Produto.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Model\\Produto.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Model\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:24:20.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StefDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Context\\StefDbContext.cs",
+              "RelativeDocumentMoniker": "DesafioStefanini.Server\\Context\\StefDbContext.cs",
+              "ToolTip": "C:\\Users\\felip\\source\\repos\\DesafioStefanini\\DesafioStefanini.Server\\Context\\StefDbContext.cs",
+              "RelativeToolTip": "DesafioStefanini.Server\\Context\\StefDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:53:16.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
