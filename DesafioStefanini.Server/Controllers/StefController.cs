@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace DesafioStefanini.Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("Pedidos")]
     public class StefController : ControllerBase
     {
         private readonly StefDbContext _context;
@@ -20,9 +20,11 @@ namespace DesafioStefanini.Server.Controllers
         }
 
         [HttpGet("GetPedidos")]
-        public IEnumerable<Pedido> GetPedidos()
+        public IActionResult GetPedidos()
         {
-            return _service.GetPedidos();
+            var pedidos = _service.GetPedidos();
+
+            return Ok(pedidos);
         }
 
         [HttpGet("GetPedidoPorId/{id}")]
@@ -65,9 +67,11 @@ namespace DesafioStefanini.Server.Controllers
         }
 
         [HttpDelete("DeletarPedido")]
-        public ActionResult<int> DeletarPedido(int id)
+        public int DeletarPedido(int id)
         {
-            return _service.DeletePedido(id);
+            return _service.DeletarPedido(id);
         }
+
+
     }
 }

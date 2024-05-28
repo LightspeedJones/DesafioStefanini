@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace DesafioStefanini.Server.Model
 {
@@ -10,6 +11,5 @@ namespace DesafioStefanini.Server.Model
         public string NomeProduto { get; set; }
 
         public decimal Valor { get; set; }
-
     }
 }

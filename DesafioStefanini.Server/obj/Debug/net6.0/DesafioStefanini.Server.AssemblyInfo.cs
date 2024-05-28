@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesafioStefanini.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06bc2d31e1a3f2833ab7cb29b5acad86d9a5bba4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesafioStefanini.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesafioStefanini.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

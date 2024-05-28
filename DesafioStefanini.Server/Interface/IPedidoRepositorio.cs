@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioStefanini.Server.Interface
 {
-    public interface IStefService
+    public interface IPedidoRepositorio
     {
         IEnumerable<dynamic> GetPedidoPorId(int id);
-        Pedido CriarPedido(Pedido pedido);
+        int DeletePedido(int id);
         Pedido AtualizarPedido(Pedido pedido);
-        int DeletarPedido(int id);
         IEnumerable<dynamic> GetPedidos();
+        Pedido CriarPedido(Pedido pedido);
     }
 }

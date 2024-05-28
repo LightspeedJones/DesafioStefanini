@@ -33,3 +33,7 @@ C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\obj\Debug\n
 C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\obj\Debug\net6.0\DesafioStefanini.Server.pdb
 C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\obj\Debug\net6.0\DesafioStefanini.Server.genruntimeconfig.cache
 C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\obj\Debug\net6.0\ref\DesafioStefanini.Server.dll
+C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\obj\Debug\net6.0\DesafioStefanini.Server.sourcelink.json
+C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\felip\source\repos\DesafioStefanini\DesafioStefanini.Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

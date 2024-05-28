@@ -1,5 +1,6 @@
 using DesafioStefanini.Server.Context;
 using DesafioStefanini.Server.Interface;
+using DesafioStefanini.Server.Repositorios;
 using DesafioStefanini.Server.Service;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,8 +15,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<StefDbContext>(o => o.UseInMemoryDatabase("StefDb"));
 //builder.Services.AddScoped<StefDbContext>();
 builder.Services.AddScoped<IStefService, StefService>();
+builder.Services.AddScoped<IPedidoRepositorio, PedidoRepositorio>();
 
 var app = builder.Build();
+
+using (var serviceScope = app.Services.CreateScope())
+{
+    StefDbContext.SeedData(serviceScope.ServiceProvider);
+}
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
