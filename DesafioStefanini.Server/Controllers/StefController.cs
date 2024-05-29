@@ -66,12 +66,24 @@ namespace DesafioStefanini.Server.Controllers
             return Ok(pedido);
         }
 
-        [HttpDelete("DeletarPedido")]
+        [HttpDelete("DeletarPedido/{id}")]
         public int DeletarPedido(int id)
         {
             return _service.DeletarPedido(id);
         }
 
+        [HttpGet("GetProdutos")]
+        public IActionResult GetProdutos()
+        {
+            var produtos = _service.GetProdutos();
+
+            if(produtos is null)
+            {
+                return BadRequest();
+            }
+
+            return Ok(produtos);
+        }
 
     }
 }

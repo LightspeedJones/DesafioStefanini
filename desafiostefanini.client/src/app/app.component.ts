@@ -1,12 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { PedidosService } from './services/pedidos.service';
 
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
+// interface WeatherForecast {
+//   date: string;
+//   temperatureC: number;
+//   temperatureF: number;
+//   summary: string;
+// }
 
 @Component({
   selector: 'app-root',
@@ -14,24 +15,31 @@ interface WeatherForecast {
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
-  public forecasts: WeatherForecast[] = [];
+  // public forecasts: WeatherForecast[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private pedidoService: PedidosService) {}
 
   ngOnInit() {
-    this.getForecasts();
+    // this.getForecasts();
+    this.getPedidos()
   }
 
-  getForecasts() {
-    this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
-      (result) => {
-        this.forecasts = result;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
+  private getPedidos(){
+    this.pedidoService.loadPedidos().subscribe(data => {
+      console.log(data)
+    })
   }
 
-  title = 'desafiostefanini.client';
+  // getForecasts() {
+  //   this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
+  //     (result) => {
+  //       this.forecasts = result;
+  //     },
+  //     (error) => {
+  //       console.error(error);
+  //     }
+  //   );
+  // }
+
+  title = 'Desafio Stefanini';
 }

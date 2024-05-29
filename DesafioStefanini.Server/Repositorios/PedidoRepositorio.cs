@@ -15,7 +15,7 @@ namespace DesafioStefanini.Server.Repositorios
             this.context = context;
         }
 
-        public IEnumerable<dynamic> GetPedidoPorId(int id)
+        public dynamic GetPedidoPorId(int id)
         {
             var pedido = (from p in context.Pedidos
                           join ip in context.ItensPedido on p.Id equals ip.IdPedido
@@ -38,7 +38,7 @@ namespace DesafioStefanini.Server.Repositorios
                                   ip.Quantidade
 
                               }).AsEnumerable()
-                          }).AsEnumerable();
+                          }).AsEnumerable().FirstOrDefault();
 
 
             return pedido;
@@ -51,12 +51,17 @@ namespace DesafioStefanini.Server.Repositorios
 
             context.Pedidos.Remove(pedido);
 
+            context.SaveChanges();
+
             return pedido.Id;
         }
 
         public Pedido AtualizarPedido(Pedido pedido)
         {
+            var itensPedido = context.ItensPedido.Where(x => x.IdPedido == pedido.Id);
+            context.RemoveRange(itensPedido);
             var atualizado = context.Update(pedido);
+
             context.SaveChanges();
 
             return pedido;
@@ -75,7 +80,7 @@ namespace DesafioStefanini.Server.Repositorios
                               grp.Key.EmailCliente,
                               grp.Key.Pago,
                               ValorTotal = grp.Sum(x => x.pr.Valor * x.ip.Quantidade),
-                              ItensPedido = context.ItensPedido.Join(context.Produtos, ip => ip.IdProduto, pr => pr.Id, (ip, pr) => new
+                              ItensPedido = context.ItensPedido.Where(x => x.IdPedido == grp.Key.Id).Join(context.Produtos, ip => ip.IdProduto, pr => pr.Id, (ip, pr) => new
                               {
                                   ip.Id,
                                   ip.IdProduto,
@@ -97,6 +102,11 @@ namespace DesafioStefanini.Server.Repositorios
 
             return pedido;
 
+        }
+
+        public IEnumerable<Produto>? GetProdutos()
+        {
+            return context.Produtos.AsEnumerable();
         }
     }
 }
