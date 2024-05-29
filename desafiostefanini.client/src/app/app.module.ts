@@ -3,11 +3,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
 import { ViewPedidosComponent } from './view-pedidos/view-pedidos.component';
 import { TableModule } from 'primeng/table';
 import { MenubarModule } from 'primeng/menubar';
-import { FormPedidoComponent } from './form-pedido/form-pedido.component';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from 'primeng/button';
@@ -20,9 +18,7 @@ import { MessageService } from 'primeng/api';
 
 @NgModule({
   declarations: [
-    AppComponent,
     ViewPedidosComponent,
-    FormPedidoComponent,
   ],
   imports: [
     BrowserModule, 
