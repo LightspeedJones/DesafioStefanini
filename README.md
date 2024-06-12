@@ -1,4 +1,4 @@
-DesafioStefanini
+# DesafioStefanini
 
 
 A aplicação foi feita com uma camada back-end escrita em .NET 6.0 (usando um banco InMemory integrado com o EF Core) e uma outra camada front-end escrita com o framework Angular.
